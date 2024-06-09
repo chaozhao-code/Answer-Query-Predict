@@ -21,9 +21,13 @@ python3 -m nltk.downloader -d $HOME/nltk_data punkt
 ```
 
 **Run convert_msmarco.py**
+
+
 You may need to modify some paths
 
 **Run tsv2ctf.py**
+
+
 You may need to modify some paths
 
 **Use the model to predict answer**
