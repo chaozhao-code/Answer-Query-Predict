@@ -1,11 +1,11 @@
 **Instructions for getting started with this model**
 
 **Download the MS MARCO dataset**
-
+```{bash}
 wget https://msmarco.blob.core.windows.net/msmarco/train_v1.1.json.gz
 wget https://msmarco.blob.core.windows.net/msmarco/dev_v1.1.json.gz
 wget https://msmarco.blob.core.windows.net/msmarco/test_public_v1.1.json.gz
-
+```
 **Download GloVe vectors**
 wget http://nlp.stanford.edu/data/glove.840B.300d.zip
 unzip glove.840B.300d.zip
