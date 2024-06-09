@@ -34,6 +34,8 @@ You may need to modify some paths
 
 ```{bash}
 python train_pm.py -test $testdir -outputdir $outputdir -model pm.model7
-$testdir means the data path
-$outputdir means the model path
 ```
+
+`$testdir` means the data path for evaluation.
+
+`$outputdir` means the model path for predicting.
